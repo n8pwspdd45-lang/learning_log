@@ -1,0 +1,7 @@
+@n8pwspdd45-lang ➜ /workspaces/learning_log (main) $ pwd
+/workspaces/learning_log
+
+Per caricare su repository GITHUB
+git add .                          # 1. Preparo TUTTI i file modificati
+git commit -m "descrizione"        # 2. Salvo con un messaggio
+git push                           # 3. Mando su GitHub
