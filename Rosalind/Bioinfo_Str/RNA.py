@@ -1,8 +1,8 @@
-DNA = input("DNA: ")
+coding_DNA = input("DNA: ")
 
 RNA = ""
 
-for nt in DNA:
+for nt in coding_DNA:
     if nt == "T":
         RNA += "U"
     else:
