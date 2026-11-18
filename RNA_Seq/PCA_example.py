@@ -74,6 +74,7 @@ for sample in pca_df.index:
 plt.savefig("PCA_graph.png", dpi=150)
 plt.close()
 
+""" Per capire quali geni sono responsabili del maggior dispostamento sulle X """
 loading_scores = pd.Series(pca.components_[0], index=genes)
 sorted_loading_scores = loading_scores.abs().sort_values(ascending=False)
 
